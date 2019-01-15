@@ -1,0 +1,17 @@
+//Program that uses string array then assign into it.
+using System;
+
+public class Class1
+{
+	public Class1()
+	{
+        String[] animals = new String[3];
+        animals[0] = "deer";
+        animals[1] = "moose";
+        animals[2] = "Boars";
+        Console.WriteLine("Array 1: " + animals.Length);
+
+    
+        
+	}
+}

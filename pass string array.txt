@@ -1,0 +1,15 @@
+using System;
+
+public class Program
+{
+	public Program()
+	{
+        int[] array = { -5, -6, -2 };
+        Console.WriteLine(Method(array));
+        // receiving array as a parameter
+        static int Method(int[] array)
+        {
+            return 2 * array[0];
+        }
+	}
+}
