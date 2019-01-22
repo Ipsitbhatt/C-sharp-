@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp4
+{
+    class Class2
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a Sentence from keyboard ::");
+            String emp = Console.ReadLine(); ;
+            int count = 1;
+            int cw = 0;
+            char[] Vowel = { 'a', 'e', 'i', 'o', 'u' };
+            int l = emp.Length;
+            for (int i = 0; i < l;i++)
+            {
+                if(emp[i].Equals(" "))
+                {
+                    count++;
+                }
+                if(emp[i].Equals('a')|| emp[i].Equals('e')|| emp[i].Equals('i')|| emp[i].Equals('o')|| emp[i].Equals('u'))
+                {
+                    cw++;
+                }
+            }
+            Console.WriteLine("Total space::",count);
+            Console.WriteLine("Total vowels:", cw);
+        }
+    }
+}

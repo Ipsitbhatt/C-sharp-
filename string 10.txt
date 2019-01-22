@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp4
+{
+    class Class1
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("HEllo enter 10 names");
+            String[] S1 = new string[10];
+            int i;
+            Console.WriteLine("Enter names in string::");
+            for (i = 0; i < 10; i++)
+            {
+                S1[i] = Console.ReadLine();
+            }
+            for (i = 0; i < 10; i++)
+            {
+                Console.WriteLine(S1[i]);
+            }
+            Console.ReadLine();
+        }
+    }
+}
